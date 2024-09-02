@@ -1,9 +1,9 @@
 <?php
-$instance['hypixel'] = array_merge($instance['hypixel'], array(
+$instance['freedomcivilizations'] = array_merge($instance['freedomcivilizations'], array(
     "loadder" => array(
-        "minecraft_version" => "1.8.9",
-        "loadder_type" => "forge",
-        "loadder_version" => "latest"
+        "minecraft_version" => "1.20.1",
+        "loadder_type" => "fabric",
+        "loadder_version" => "0.15.11"
     ),
     "verify" => true,
     "ignored" => array(
@@ -21,26 +21,9 @@ $instance['hypixel'] = array_merge($instance['hypixel'], array(
     "whitelist" => array(),
     "whitelistActive" => false,
     "status" => array(
-        "nameServer" => "Hypixel",
-        "ip" => "mc.hypixel.net",
+        "nameServer" => "Freedom Civilizations",
+        "ip" => "freedom.factions.ws",
         "port" => 25565
-    )
-));
-
-$instance['PokeMoonX'] = array_merge($instance['PokeMoonX'], array(
-    "loadder" => array(
-        "minecraft_version" => "1.16.5",
-        "loadder_type" => "forge",
-        "loadder_version" => "1.16.5-36.2.35"
-    ),
-    "verify" => false,
-    "ignored" => array(),
-    "whitelist" => array(),
-    "whitelistActive" => false,
-    "status" => array(
-        "nameServer" => "PokeMoonX",
-        "ip" => "178.32.106.234",
-        "port" => 25599
     )
 ));
 ?>
