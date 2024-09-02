@@ -1,5 +1,6 @@
 <?php
 $instance['freedomcivilizations'] = array_merge($instance['freedomcivilizations'], array(
+	"url": "https://prangellplayslauncherinstances.github.io/FreedomCivilizations/files?instance=freedomcivilizations",
     "loadder" => array(
         "minecraft_version" => "1.20.1",
         "loadder_type" => "fabric",
