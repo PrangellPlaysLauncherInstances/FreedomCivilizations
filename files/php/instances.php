@@ -14,12 +14,10 @@ $instance['freedomcivilizations'] = array_merge($instance['freedomcivilizations'
         'saves',
         'screenshots',
         'shaderpacks',
-        'W-OVERFLOW',
-        'options.txt',
-        'optionsof.txt'
+        'options.txt'
     ),
     "whitelist" => array(),
-    "whitelistActive" => false,
+    "whitelistActive" => true,
     "status" => array(
         "nameServer" => "Freedom Civilizations",
         "ip" => "freedom.factions.ws",
