@@ -5,8 +5,8 @@
     "client_id": "13f589e1-e2fc-443e-a68a-63b0092b8eeb",
     "dataDirectory": "freedomcivilizations",
     "status": {
-        "nameServer": "Server Name"
-        "ip": "127.0.0.1",
+        "nameServer": "",
+        "ip": "",
         "port": 25565
     }
 }
