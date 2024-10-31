@@ -2,6 +2,12 @@
     "maintenance": false,
     "maintenance_message": "The launcher is under maintenance.<br>Please try again later.",
     "online": true,
+    "game_version": "1.20.1",
+    "modde": "true",
     "client_id": "",
-    "dataDirectory": "freedomcivilizations"
+    "dataDirectory": "freedomcivilizations",
+    "status": {
+        "nameServer": "FreedomCivilizations",
+        "ip": "freedom.factions.ws",
+        "port": "25565"
 }
