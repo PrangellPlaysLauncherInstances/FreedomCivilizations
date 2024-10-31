@@ -6,6 +6,8 @@ $instance['freedomcivilizations'] = array_merge($instance['freedomcivilizations'
         "loadder_version" => "0.15.11"
     ),
     "verify" => false,
+    "modde" => true,
+    "java" => true,
     "ignored" => array(),
     "whitelist" => array(),
     "whitelistActive" => false,
