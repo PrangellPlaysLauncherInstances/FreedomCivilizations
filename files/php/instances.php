@@ -1,24 +1,14 @@
 <?php
 $instance['freedomcivilizations'] = array_merge($instance['freedomcivilizations'], array(
-	"url": "https://prangellplayslauncherinstances.github.io/FreedomCivilizations/files?instance=freedomcivilizations",
     "loadder" => array(
         "minecraft_version" => "1.20.1",
         "loadder_type" => "fabric",
         "loadder_version" => "0.15.11"
     ),
-    "verify" => true,
-    "ignored" => array(
-        'config',
-        'essential',
-        'logs',
-        'resourcepacks',
-        'saves',
-        'screenshots',
-        'shaderpacks',
-        'options.txt'
-    ),
+    "verify" => false,
+    "ignored" => array(),
     "whitelist" => array(),
-    "whitelistActive" => true,
+    "whitelistActive" => false,
     "status" => array(
         "nameServer" => "Freedom Civilizations",
         "ip" => "freedom.factions.ws",
